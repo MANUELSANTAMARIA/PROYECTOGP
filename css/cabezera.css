@@ -1,0 +1,33 @@
+/* llaves {} */
+
+
+/* inicio */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../imagenes/recursos-maquetacion-1-master-css-victor-robles/img/paven.png);
+}
+
+/*tamaño del logo */
+
+.logo img{
+    min-width: 100%;
+    max-width:100%;
+    height: 200px;
+    display: block;
+    margin: auto;
+    padding-top: 2px;
+}
+
+.titulo{
+    margin-top: 2px;
+    text-align: center;
+    color:rgba(13, 148, 13, 0.542);
+    font-family:'Fjalla One';
+    font-size:180%;
+}
+
