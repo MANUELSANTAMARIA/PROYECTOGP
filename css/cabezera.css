@@ -10,12 +10,12 @@
         background-image: url(../imagenes/recursos/img/paven.png);
         /*poner el footer abajo */
         /*display especifica si un elemento es tratado como block y por sus hijos grid(Cuadricula)*/
-        display: grid;
+        /* display: grid; */
         /*min-height en lugar de height permitirá que el body elemento crezca aún más si es necesario
         100vh significa que la altura inicial bodytomará el 100%*/
-        min-height: 100vh;
+        /* min-height: 100vh; */
         /*La propiedad CSS grid-template-rows define el nombre de las líneas y las funciones de tamaño de línea de grid rows*/
-        grid-template-rows: auto 1fr auto;
+        /* grid-template-rows: auto 1fr auto; */
     }
     /*tamaño del logo */
     
