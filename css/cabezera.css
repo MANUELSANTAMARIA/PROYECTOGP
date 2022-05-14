@@ -7,7 +7,7 @@
     }
     
     body {
-        background-image: url(../imagenes/recursos-maquetacion-1-master-css-victor-robles/img/paven.png);
+        background-image: url(../imagenes/recursos/img/paven.png);
         /*poner el footer abajo */
         /*display especifica si un elemento es tratado como block y por sus hijos grid(Cuadricula)*/
         display: grid;
