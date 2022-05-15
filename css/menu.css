@@ -2,137 +2,128 @@
  <label for="activacion_len" class="despliege"><i class="gg-menu-cheese" classs="boton1"></i></label> 
  */
 
+
 /*  inicio del nemu */
-#activacion_len{
+
+#activacion_len {
     display: none;
 }
 
-.ham, .despliege{
+.ham,
+.despliege {
     display: none;
 }
 
 .menu {
     width: 100%;
-     background-color: rgb(146, 79, 34);
+    background-color: rgb(34, 45, 146);
     color: white;
-    height:40px;
-
+    height: 40px;
 }
 
 .menu ul {
-    display:block;
+    display: block;
     list-style: none;
-    text-decoration: none; 
+    text-decoration: none;
     margin: 0 auto;
     width: 100%;
-
 }
 
-.menu > ul > li, .menu > ul > .responsive1 > li , .menu > ul > .responsive1 > .responsive2 > li{
-    line-height:40px;
-    float:left;
+.menu>ul>li,
+.menu>ul>.responsive1>li,
+.menu>ul>.responsive1>.responsive2>li {
+    line-height: 40px;
+    float: left;
     border-right: 1px solid white;
-    display:block;
+    display: block;
     transition: 500ms;
     height: 100%;
-
-}
-.menu > ul > .responsive1 > .responsive2 {
-    float:left;
 }
 
-.menu > ul > li a , .menu > ul > .responsive1 > li > a , .menu > ul > .responsive1 > .responsive2 > li > a{
+.menu>ul>.responsive1>.responsive2 {
+    float: left;
+}
+
+.menu>ul>li a,
+.menu>ul>.responsive1>li>a,
+.menu>ul>.responsive1>.responsive2>li>a {
     color: rgb(255, 255, 255);
-    list-style: none;   
-    text-decoration: none; 
+    list-style: none;
+    text-decoration: none;
     padding: 20px;
 }
 
-
-.menu > ul > li:hover , .menu > ul > .responsive1 > li:hover , .menu > ul > .responsive1 > .responsive2 > li:hover{
-    background-color:green;
-
+.menu>ul>li:hover,
+.menu>ul>.responsive1>li:hover,
+.menu>ul>.responsive1>.responsive2>li:hover {
+    background-color: green;
 }
 
-
-.menu > ul > li > ul , .menu > ul > .responsive1 > li > ul ,.menu > ul > .responsive1 > .responsive2 > li > ul {
+.menu>ul>li>ul,
+.menu>ul>.responsive1>li>ul,
+.menu>ul>.responsive1>.responsive2>li>ul {
     display: none;
     position: absolute;
-    color:rgb(80, 66, 66);
-    text-align:left;
+    color: rgb(80, 66, 66);
+    text-align: left;
     width: 1060px;
     z-index: 1;
-    
 }
 
-
-.menu > ul > li:hover > ul , .menu > ul > .responsive1 > li:hover > ul , .menu > ul > .responsive1 > .responsive2 > li:hover > ul{
+.menu>ul>li:hover>ul,
+.menu>ul>.responsive1>li:hover>ul,
+.menu>ul>.responsive1>.responsive2>li:hover>ul {
     display: block;
 }
 
-.menu > ul > li:hover > ul > li > a , .menu > ul > .responsive1 > li > ul >li > a , .menu > ul > .responsive1 > .responsive2 > li > ul > li > a  {
+.menu>ul>li:hover>ul>li>a,
+.menu>ul>.responsive1>li>ul>li>a,
+.menu>ul>.responsive1>.responsive2>li>ul>li>a {
     display: block;
-    background:rgb(100, 74, 74);
-    width:15%;
-    padding-left:2%
+    background: rgb(100, 74, 74);
+    width: 15%;
+    padding-left: 2%
 }
 
-.menu .responsive1 a{
+.menu .responsive1 a {
     color: white;
     text-decoration: none;
 }
-.menu ul{
-    margin:0 auto;
+
+.menu ul {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
-
 }
+
+
 /* {} */
+
 
 /* menu tablets */
 
-
-
-
-
-
-
-
-
-
-
-@media(max-width:1120px){
-    .ham, .despliege{
+@media(max-width:1120px) {
+    .ham,
+    .despliege {
         display: inline-block;
     }
     .responsive2 {
         display: none;
     }
-
-    .despliege{
-        height:100%
+    .despliege {
+        height: 100%
     }
-    #activacion_len:checked ~ ul{
+    #activacion_len:checked~ul {
         display: none;
-
     }
-    #activacion_len:checked ~ * .responsive2 {
+    #activacion_len:checked~* .responsive2 {
         display: block;
     }
-
 }
-
-
-
 
 @media (max-width:665px) {
-    
-    .responsive2 , .responsive1{
+    .responsive2,
+    .responsive1 {
         display: none;
     }
-
-
-    
 }
-
-

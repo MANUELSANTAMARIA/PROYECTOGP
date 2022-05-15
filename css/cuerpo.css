@@ -1,4 +1,4 @@
-/*  cuerpo de la paguina
+/*  cuerpo de la pagina
 #
 {}
 */
@@ -6,6 +6,7 @@
 .cuerpo {
     float: right;
     width: 80%;
+    margin-bottom: 30px;
 }
 
 .cajacon {

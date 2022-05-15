@@ -5,9 +5,9 @@
 
 .pied {
     background-color: rgba(21, 15, 15, 0.905);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* width: 100%; */
 }
 
 .pied span {
