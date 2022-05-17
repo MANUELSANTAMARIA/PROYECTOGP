@@ -10,9 +10,11 @@
     /* width: 100%; */
 }
 
-.pied span {
+.pied span,
+.pied span a {
     color: white;
     display: block;
     text-align: center;
-    padding: 0.2%
+    padding: 0.2%;
+    text-transform: uppercase;
 }
