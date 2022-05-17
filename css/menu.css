@@ -18,7 +18,7 @@
     width: 100%;
     background-color: rgb(34, 45, 146);
     color: white;
-    height: 40px;
+    height: 5%;
 }
 
 .menu ul {
@@ -69,7 +69,7 @@
     position: absolute;
     /*color de letra*/
     color: white;
-    width: 170px;
+    width: 16%;
     /* box-shadow: 0px 0px 20px gray;licar una sombra caja(ejex,ejey,defuminado,color) */
     box-shadow: 0px 2px 2px rgb(180, 240, 180);
     /*para sobre poner*/
