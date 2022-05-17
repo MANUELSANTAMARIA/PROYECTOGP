@@ -2,137 +2,110 @@
  <label for="activacion_len" class="despliege"><i class="gg-menu-cheese" classs="boton1"></i></label> 
  */
 
+
 /*  inicio del nemu */
-#activacion_len{
+
+#activacion_len {
     display: none;
 }
 
-.ham, .despliege{
+.ham,
+.despliege {
     display: none;
 }
 
 .menu {
     width: 100%;
-     background-color: rgb(146, 79, 34);
+    background-color: rgb(34, 45, 146);
     color: white;
-    height:40px;
-
+    height: 5%;
 }
 
 .menu ul {
-    display:block;
+    display: block;
     list-style: none;
-    text-decoration: none; 
+    text-decoration: none;
     margin: 0 auto;
     width: 100%;
-
+    justify-content: center;
 }
 
-.menu > ul > li, .menu > ul > .responsive1 > li , .menu > ul > .responsive1 > .responsive2 > li{
-    line-height:40px;
-    float:left;
+
+/*escojo cada una de las li*/
+
+.menu>ul>li {
+    line-height: 40px;
+    float: left;
     border-right: 1px solid white;
-    display:block;
+    display: block;
     transition: 500ms;
     height: 100%;
-
-}
-.menu > ul > .responsive1 > .responsive2 {
-    float:left;
 }
 
-.menu > ul > li a , .menu > ul > .responsive1 > li > a , .menu > ul > .responsive1 > .responsive2 > li > a{
+
+/*escojo cada una de las a*/
+
+.menu>ul>li a {
     color: rgb(255, 255, 255);
-    list-style: none;   
-    text-decoration: none; 
+    list-style: none;
+    text-decoration: none;
     padding: 20px;
 }
 
-
-.menu > ul > li:hover , .menu > ul > .responsive1 > li:hover , .menu > ul > .responsive1 > .responsive2 > li:hover{
-    background-color:green;
-
+.menu>ul>li:hover {
+    /*color de fondo*/
+    background-color: #70b231;
+    /* box-shadow: 0px 0px 20px gray;licar una sombra caja(ejex,ejey,defuminado,color) */
+    box-shadow: 0px 0px 4px green inset;
 }
 
 
-.menu > ul > li > ul , .menu > ul > .responsive1 > li > ul ,.menu > ul > .responsive1 > .responsive2 > li > ul {
+/*MANU DESPLEGABLE*/
+
+.menu>ul>li>ul {
+    /*que no sea contendor*/
     display: none;
+    /*para no desfigurar la estructura del sito web*/
     position: absolute;
-    color:rgb(80, 66, 66);
-    text-align:left;
-    width: 1060px;
-    z-index: 1;
-    
-}
-
-
-.menu > ul > li:hover > ul , .menu > ul > .responsive1 > li:hover > ul , .menu > ul > .responsive1 > .responsive2 > li:hover > ul{
-    display: block;
-}
-
-.menu > ul > li:hover > ul > li > a , .menu > ul > .responsive1 > li > ul >li > a , .menu > ul > .responsive1 > .responsive2 > li > ul > li > a  {
-    display: block;
-    background:rgb(100, 74, 74);
-    width:15%;
-    padding-left:2%
-}
-
-.menu .responsive1 a{
+    /*color de letra*/
     color: white;
-    text-decoration: none;
+    width: 16%;
+    /* box-shadow: 0px 0px 20px gray;licar una sombra caja(ejex,ejey,defuminado,color) */
+    box-shadow: 0px 2px 2px rgb(180, 240, 180);
+    /*para sobre poner*/
+    z-index: 1;
 }
-.menu ul{
-    margin:0 auto;
+
+.menu>ul>li:hover>ul {
+    /*que sea contendor*/
+    display: block;
+    /*Establezca la alineación del texto*/
+    text-align: left;
+}
+
+.menu>ul>li:hover>ul>li {
+    background-color: #f2f1f0;
+    border-top: 1px solid #d6d6d6;
+    padding: 8px;
+    line-height: 25px;
+    font-size: 13px;
+    transition: 300ms;
+}
+
+.menu>ul>li:hover>ul>li>a {
+    color: #666666;
+    /*elimino linias que me salen esquinas*/
+    border-left: none;
+    border-right: none;
+}
+
+.menu>ul>li:hover>ul>li:hover {
+    box-shadow: 0px 0px 6px #ccc inset;
+    background-color: rgb(180, 240, 180);
+}
+
+.menu ul {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
-
 }
-/* {} */
-
-/* menu tablets */
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:1120px){
-    .ham, .despliege{
-        display: inline-block;
-    }
-    .responsive2 {
-        display: none;
-    }
-
-    .despliege{
-        height:100%
-    }
-    #activacion_len:checked ~ ul{
-        display: none;
-
-    }
-    #activacion_len:checked ~ * .responsive2 {
-        display: block;
-    }
-
-}
-
-
-
-
-@media (max-width:665px) {
-    
-    .responsive2 , .responsive1{
-        display: none;
-    }
-
-
-    
-}
-
-

@@ -1,34 +1,61 @@
-/*  cuerpo de la paguina
+/*  cuerpo de la pagina
 #
 {}
 */
 
-.cuerpo{
-    
+.cuerpo {
     float: right;
-    width: 80%;
-    
+    width: 90%;
+    margin-bottom: 20px;
 }
 
-.cajacon{
-    border-radius:10px;
-    margin-top:4%;
-    padding: 3%;
-    margin-right:10%;
+.cajacon {
+    border-radius: 5px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 11%;
+    margin-right: 5%;
     box-shadow: 1px 1px 4px 2px;
 }
 
-.ver{
-
-
-    margin-right:10%;
-    margin-bottom:4%;
-    margin-top:2%;
+.ver {
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 2%;
     text-align: right;
-
 }
 
 
+/* news cards */
 
+.news-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10%;
+    margin: 10px 0;
+}
 
+.news-cards img {
+    width: 100%;
+    height: 60%;
+}
 
+.news-cards h1 {
+    font-size: 11px;
+    /*tipo de letra */
+    font-family: 'Fjalla One';
+}
+
+.news-cards a {
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.news-cards a:hover {
+    text-decoration: underline;
+    cursor: hand;
+}

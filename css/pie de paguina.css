@@ -1,17 +1,20 @@
-.creaarbox{
+.creaarbox {
     float: none;
-    clear:both
+    clear: both
 }
 
-
-.pied{
-    background-color:rgba(21, 15, 15, 0.905);
-
-
+.pied {
+    background-color: rgba(21, 15, 15, 0.905);
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* width: 100%; */
 }
-.pied span{
-    color:white;
+
+.pied span,
+.pied span a {
+    color: white;
     display: block;
-    text-align:center;
-    padding:0.2%
+    text-align: center;
+    padding: 0.2%;
+    text-transform: uppercase;
 }

@@ -10,28 +10,44 @@
         background-image: url(../imagenes/recursos/img/paven.png);
         /*poner el footer abajo */
         /*display especifica si un elemento es tratado como block y por sus hijos grid(Cuadricula)*/
-        display: grid;
+        /* display: grid; */
         /*min-height en lugar de height permitirá que el body elemento crezca aún más si es necesario
         100vh significa que la altura inicial bodytomará el 100%*/
-        min-height: 100vh;
+        /* min-height: 100vh; */
         /*La propiedad CSS grid-template-rows define el nombre de las líneas y las funciones de tamaño de línea de grid rows*/
-        grid-template-rows: auto 1fr auto;
+        /* grid-template-rows: auto 1fr auto; */
     }
     /*tamaño del logo */
     
     .logo img {
-        min-width: 100%;
-        max-width: 100%;
-        height: 200px;
+        min-width: 90%;
+        max-width: 90%;
+        height: 170px;
         display: block;
         margin: auto;
         padding-top: 2px;
     }
     
     .titulo {
-        margin-top: 2px;
+        color: green;
+        /*centrar el texto*/
         text-align: center;
-        color: rgba(13, 148, 13, 0.542);
+        /*tamaño de letra*/
+        font-size: 40px;
+        /*tipo de letra */
         font-family: 'Fjalla One';
-        font-size: 180%;
+        /*tranformar la letra en mayuscula*/
+        text-transform: uppercase;
+        /*espacio entre letra*/
+        letter-spacing: 4px;
+        /*margen por arriba*/
+        margin-top: 10px;
+        /*efecto tridimensional*/
+        text-shadow: 0px 2px 1px #333333;
+        /*trasicion*/
+        transition: all 30 ms;
+    }
+    
+    .titulo:hover {
+        text-shadow: 0px 2px 1px #333333, 0px 0px 3px #70b231;
     }
