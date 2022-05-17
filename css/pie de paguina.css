@@ -18,3 +18,22 @@
     padding: 0.2%;
     text-transform: uppercase;
 }
+
+
+/* responsive */
+
+@media (max-width: 412px) {
+    .pied {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 810px) {
+    .pied {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}

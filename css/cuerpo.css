@@ -59,3 +59,12 @@
     text-decoration: underline;
     cursor: hand;
 }
+
+@media (max-width: 360px) {
+    .news-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10%;
+        margin: 10px 0;
+    }
+}
