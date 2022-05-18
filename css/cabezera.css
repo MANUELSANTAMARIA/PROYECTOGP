@@ -47,3 +47,14 @@
         transition: all 30 ms;
         color: green;
     }
+    
+    @media (max-width: 412px) {
+        .logo img {
+            min-width: 80%;
+            max-width: 60%;
+            height: 100px;
+            display: block;
+            margin: auto;
+            padding-top: 2px;
+        }
+    }
