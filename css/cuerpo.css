@@ -31,7 +31,7 @@
 .news-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10%;
+    gap: 2%;
     margin: 10px 0;
 }
 
@@ -44,6 +44,7 @@
     font-size: 11px;
     /*tipo de letra */
     font-family: 'Fjalla One';
+    text-transform: uppercase;
 }
 
 .news-cards a {
@@ -60,11 +61,11 @@
     cursor: hand;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 412px) {
     .news-cards {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 10%;
+        grid-template-columns: 1fr 1fr;
+        gap: 2%;
         margin: 10px 0;
     }
 }
